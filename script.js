@@ -21,7 +21,7 @@ function countDown(){
     const days = Math.floor(hours /24)
 
     displayDay.textContent = days;
-    displayHours.textContent = hours%60
+    displayHours.textContent = hours%24
     displayMinutes.textContent = minutes%60
     displaySeconds.textContent = seconds%60
 }
